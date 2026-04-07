@@ -24,7 +24,7 @@ export const MyProject = () => {
           <div className="md:h-full h-65 w-full md:max-w-100 group relative rounded-xl overflow-hidden">
             <div className="w-full h-full absolute bg-teal-200/50 z-10 group-hover:hidden transition-all ease-in-out duration-700" />
             <div className="h-full md:w-105 z-0 absolute -right-4  group-hover:scale-110 transition-all ease-in-out duration-700">
-              <Image src={Leskita} alt="" />
+              <Image loading="eager" src={Leskita} alt="" />
             </div>
           </div>
           <div className="flex flex-col h-[50%] md:h-full justify-between">
@@ -59,8 +59,8 @@ export const MyProject = () => {
           </div>
           <div className="md:h-full h-65 w-full md:max-w-100 group relative rounded-xl overflow-hidden">
             <div className="w-full h-full absolute bg-teal-200/50 z-10 group-hover:hidden transition-all ease-in-out duration-700" />
-            <div className="h-full md:w-190 z-0 absolute -right-4  group-hover:scale-110 transition-all ease-in-out duration-700">
-              <Image src={Jeparanesia} alt="" />
+            <div className="h-full w-100 md:w-190 z-0 absolute -right-4  group-hover:scale-110 transition-all ease-in-out duration-700">
+              <Image loading="eager" src={Jeparanesia} alt="" />
             </div>
           </div>
           <div className="flex flex-col h-[50%] md:h-full justify-between">

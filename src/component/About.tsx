@@ -94,7 +94,7 @@ export const About = () => {
       <div className="w-[80%] md:w-[40%] flex flex-col gap-8">
         <div className="border-2 relative border-teal-200 w-full aspect-square h-fit rounded-md">
           <div className="w-full h-full rounded-md overflow-hidden bg-teal-200 absolute -top-4 -left-4">
-            <Image src={avatar} alt="" />
+            <Image loading="eager" src={avatar} alt="" />
           </div>
         </div>
         <p className="md:text-lg text-md font-bold">
