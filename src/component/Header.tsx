@@ -3,7 +3,7 @@ import avatar from "@/public/avatar.png";
 
 export const Header = () => {
   return (
-    <div className="font-mono w-full h-25 px-20 items-center rounded-full flex justify-between">
+    <div className="font-mono min-w-screen w-full h-25 px-6 md:px-20 items-center flex justify-between">
       <div className="w-14 h-14 flex overflow-hidden border-2 rounded-full border-teal-200 cursor-pointer hover:scale-105 hover:border-teal-400 hover:shadow-[1px_1px_6px_6px_rgba(0,109,91,0.5)] transition-all ease-in-out duration-300">
         <Image src={avatar} alt="" />
       </div>
